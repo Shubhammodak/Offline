@@ -43,7 +43,21 @@ public class LoginPageTest extends TestBase {
 		Assert.assertEquals(actMsg, expMsg);
 		
 	}
-	
+	@Test(priority = 4)
+	public void checkErrormsgBothempty() {
+		driver.findElement(By.id("email")).sendKeys("");
+		driver.findElement(By.id("password")).sendKeys("");
+		driver.findElement(By.xpath("//*[@id=\"form\"]/div[3]/div/button")).click();
+		String actMsg = driver.findElement(By.id("email_error")).getText();
+		String actMsg1 = driver.findElement(By.xpath("//*[@id=\"password_error\"]")).getText();
+		System.out.println(actMsg);
+		System.out.println(actMsg1);
+		String expMsg = "Please enter email.";
+		String expMsg1 = "Please enter password.";
+		Assert.assertEquals(actMsg, expMsg);
+		Assert.assertEquals(actMsg1, expMsg1);
+
+	}
 	
 
 }
