@@ -1,5 +1,7 @@
 package com.offline.qa.test;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -13,6 +15,11 @@ public class LoginPageTest extends TestBase {
 	public void SetuP(){
 		TestBase.OpenBrowser();
 	}*/
+
+	public LoginPageTest() throws IOException {
+		super();
+		
+	}
 
 	@Test(priority=1)
 	public void checkTitle(){
