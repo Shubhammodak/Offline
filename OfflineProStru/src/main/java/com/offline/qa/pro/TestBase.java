@@ -15,9 +15,9 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	
-	public TestBase() throws IOException{
+	public TestBase() throws Exception  {
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\shubham\\git\\Offline\\OfflineProStru\\src\\main\\java\\com\\offline\\qa\\config\\config.properties");
+		FileInputStream fis=new FileInputStream("G:/Users/Poo/git/Offlinejbk/OfflineProStru/src/main/java/com/offline/qa/config/config.properties");
 		prop.load(fis);
 	}
 	

@@ -1,25 +1,30 @@
 package com.offline.qa.test;
 
-import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.offline.qa.pages.Home_Page;
+import com.offline.qa.pages.Login_Page;
 import com.offline.qa.pro.TestBase;
 
 public class LoginPageTest extends TestBase {
-	
+	Login_Page login;
+	Home_Page homepage;
 	/*@BeforeMethod
 	public void SetuP(){
 		TestBase.OpenBrowser();
 	}*/
 
-	public LoginPageTest() throws IOException {
+	public LoginPageTest() throws Exception {
 		super();
 		
 	}
+@BeforeTest
+public void objoglogin() throws Exception{
+	login = new Login_Page();
+}
 
 	@Test(priority=1)
 	public void checkTitle(){
@@ -65,6 +70,16 @@ public class LoginPageTest extends TestBase {
 		Assert.assertEquals(actMsg1, expMsg1);
 
 	}
+	@Test(priority = 5)
+	public void homepage() throws Exception{
+		login.navigatetohome();
+		
+	}
+	
+	}
+
+	
+	
 	
 
-}
+

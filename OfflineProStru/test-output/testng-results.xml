@@ -1,61 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18314" started-at="2020-02-24T10:09:04Z" finished-at="2020-02-24T10:09:22Z">
+  <suite name="Default suite" duration-ms="28392" started-at="2020-02-25T08:13:42Z" finished-at="2020-02-25T08:14:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18314" started-at="2020-02-24T10:09:04Z" finished-at="2020-02-24T10:09:22Z">
-      <class name="com.offline.qa.test.LoginPageTest">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="4347" started-at="2020-02-24T15:39:04Z" finished-at="2020-02-24T15:39:08Z">
+    <test name="Default test" duration-ms="28392" started-at="2020-02-25T08:13:42Z" finished-at="2020-02-25T08:14:10Z">
+      <class name="com.offline.qa.test.HomePageTest">
+        <test-method status="PASS" signature="objoghomepage()[pri:0, instance:com.offline.qa.test.HomePageTest@55f3ddb1]" name="objoghomepage" is-config="true" duration-ms="171" started-at="2020-02-25T13:43:42Z" finished-at="2020-02-25T13:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objoghomepage -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.HomePageTest@55f3ddb1]" name="OpenBrowser" is-config="true" duration-ms="26845" started-at="2020-02-25T13:43:42Z" finished-at="2020-02-25T13:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkTitle" duration-ms="32" started-at="2020-02-24T15:39:08Z" finished-at="2020-02-24T15:39:09Z">
+        <test-method status="FAIL" signature="verifytitle()[pri:0, instance:com.offline.qa.test.HomePageTest@55f3ddb1]" name="verifytitle" duration-ms="112" started-at="2020-02-25T13:44:09Z" finished-at="2020-02-25T13:44:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [dashboard] but found [JavaByKiran | Log in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [dashboard] but found [JavaByKiran | Log in]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.offline.qa.test.HomePageTest.verifytitle(HomePageTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="717" started-at="2020-02-24T15:39:09Z" finished-at="2020-02-24T15:39:09Z">
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.HomePageTest@55f3ddb1]" name="quitebr" is-config="true" duration-ms="1158" started-at="2020-02-25T13:44:09Z" finished-at="2020-02-25T13:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitebr -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="3690" started-at="2020-02-24T15:39:09Z" finished-at="2020-02-24T15:39:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkErrormsg()[pri:2, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkErrormsg" duration-ms="263" started-at="2020-02-24T15:39:13Z" finished-at="2020-02-24T15:39:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkErrormsg -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="789" started-at="2020-02-24T15:39:13Z" finished-at="2020-02-24T15:39:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitebr -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="3217" started-at="2020-02-24T15:39:14Z" finished-at="2020-02-24T15:39:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkErrormsgPassword()[pri:3, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkErrormsgPassword" duration-ms="233" started-at="2020-02-24T15:39:17Z" finished-at="2020-02-24T15:39:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkErrormsgPassword -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="648" started-at="2020-02-24T15:39:17Z" finished-at="2020-02-24T15:39:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitebr -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="3335" started-at="2020-02-24T15:39:18Z" finished-at="2020-02-24T15:39:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkErrormsgBothempty()[pri:4, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkErrormsgBothempty" duration-ms="328" started-at="2020-02-24T15:39:21Z" finished-at="2020-02-24T15:39:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkErrormsgBothempty -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="672" started-at="2020-02-24T15:39:22Z" finished-at="2020-02-24T15:39:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitebr -->
-      </class> <!-- com.offline.qa.test.LoginPageTest -->
+      </class> <!-- com.offline.qa.test.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
