@@ -70,13 +70,11 @@ public void objoglogin() throws Exception{
 		Assert.assertEquals(actMsg1, expMsg1);
 
 	}
-	@Test(priority = 5)
-	public void homepage() throws Exception{
-		login.navigatetohome();
+	
 		
 	}
 	
-	}
+	
 
 	
 	
