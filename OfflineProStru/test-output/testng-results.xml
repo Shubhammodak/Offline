@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18314" started-at="2020-02-24T10:09:04Z" finished-at="2020-02-24T10:09:22Z">
+  <suite name="Default suite" duration-ms="31028" started-at="2020-02-26T02:42:22Z" finished-at="2020-02-26T02:42:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18314" started-at="2020-02-24T10:09:04Z" finished-at="2020-02-24T10:09:22Z">
+    <test name="Default test" duration-ms="31028" started-at="2020-02-26T02:42:22Z" finished-at="2020-02-26T02:42:53Z">
       <class name="com.offline.qa.test.LoginPageTest">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="4347" started-at="2020-02-24T15:39:04Z" finished-at="2020-02-24T15:39:08Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="OpenBrowser" is-config="true" duration-ms="12514" started-at="2020-02-26T08:12:22Z" finished-at="2020-02-26T08:12:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkTitle" duration-ms="32" started-at="2020-02-24T15:39:08Z" finished-at="2020-02-24T15:39:09Z">
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="checkTitle" duration-ms="30" started-at="2020-02-26T08:12:35Z" finished-at="2020-02-26T08:12:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="717" started-at="2020-02-24T15:39:09Z" finished-at="2020-02-24T15:39:09Z">
+        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="quitebr" is-config="true" duration-ms="957" started-at="2020-02-26T08:12:35Z" finished-at="2020-02-26T08:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitebr -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="3690" started-at="2020-02-24T15:39:09Z" finished-at="2020-02-24T15:39:13Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="OpenBrowser" is-config="true" duration-ms="4648" started-at="2020-02-26T08:12:36Z" finished-at="2020-02-26T08:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkErrormsg()[pri:2, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkErrormsg" duration-ms="263" started-at="2020-02-24T15:39:13Z" finished-at="2020-02-24T15:39:13Z">
+        <test-method status="PASS" signature="checkErrormsg()[pri:2, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="checkErrormsg" duration-ms="237" started-at="2020-02-26T08:12:41Z" finished-at="2020-02-26T08:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkErrormsg -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="789" started-at="2020-02-24T15:39:13Z" finished-at="2020-02-24T15:39:14Z">
+        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="quitebr" is-config="true" duration-ms="3142" started-at="2020-02-26T08:12:41Z" finished-at="2020-02-26T08:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitebr -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="3217" started-at="2020-02-24T15:39:14Z" finished-at="2020-02-24T15:39:17Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="OpenBrowser" is-config="true" duration-ms="3962" started-at="2020-02-26T08:12:44Z" finished-at="2020-02-26T08:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkErrormsgPassword()[pri:3, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkErrormsgPassword" duration-ms="233" started-at="2020-02-24T15:39:17Z" finished-at="2020-02-24T15:39:17Z">
+        <test-method status="PASS" signature="checkErrormsgPassword()[pri:3, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="checkErrormsgPassword" duration-ms="254" started-at="2020-02-26T08:12:48Z" finished-at="2020-02-26T08:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkErrormsgPassword -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="648" started-at="2020-02-24T15:39:17Z" finished-at="2020-02-24T15:39:18Z">
+        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="quitebr" is-config="true" duration-ms="727" started-at="2020-02-26T08:12:48Z" finished-at="2020-02-26T08:12:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitebr -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="OpenBrowser" is-config="true" duration-ms="3335" started-at="2020-02-24T15:39:18Z" finished-at="2020-02-24T15:39:21Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="OpenBrowser" is-config="true" duration-ms="3517" started-at="2020-02-26T08:12:49Z" finished-at="2020-02-26T08:12:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="checkErrormsgBothempty()[pri:4, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="checkErrormsgBothempty" duration-ms="328" started-at="2020-02-24T15:39:21Z" finished-at="2020-02-24T15:39:22Z">
+        <test-method status="PASS" signature="checkErrormsgBothempty()[pri:4, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="checkErrormsgBothempty" duration-ms="353" started-at="2020-02-26T08:12:52Z" finished-at="2020-02-26T08:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkErrormsgBothempty -->
-        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@46d56d67]" name="quitebr" is-config="true" duration-ms="672" started-at="2020-02-24T15:39:22Z" finished-at="2020-02-24T15:39:22Z">
+        <test-method status="PASS" signature="quitebr()[pri:0, instance:com.offline.qa.test.LoginPageTest@57baeedf]" name="quitebr" is-config="true" duration-ms="640" started-at="2020-02-26T08:12:53Z" finished-at="2020-02-26T08:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitebr -->

@@ -1,0 +1,8 @@
+2020-02-26 08:12:23,015  INFO [main] TestBase:38 -****Launching Chrome Browser****
+2020-02-26 08:12:36,413  INFO [main] TestBase:38 -****Launching Chrome Browser****
+2020-02-26 08:12:41,294  INFO [main] LoginPageTest:33 -Please enter email.
+2020-02-26 08:12:44,446  INFO [main] TestBase:38 -****Launching Chrome Browser****
+2020-02-26 08:12:48,656  INFO [main] LoginPageTest:46 -Please enter password.
+2020-02-26 08:12:49,389  INFO [main] TestBase:38 -****Launching Chrome Browser****
+2020-02-26 08:12:53,257  INFO [main] LoginPageTest:61 -Please enter email.
+2020-02-26 08:12:53,257 DEBUG [main] LoginPageTest:62 -Please enter password.
